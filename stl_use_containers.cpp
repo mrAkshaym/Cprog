@@ -30,7 +30,7 @@ void test_container_vector(){
     }
     cout<<endl;
 
-    v.erase(v.begin(); // erase first element
+    v.erase(v.begin()); // erase first element
     cout<< "Erase first element"<<endl;
     for (auto i : v){
         cout<<i<<",";
